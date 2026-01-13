@@ -1,7 +1,12 @@
 # Treasure Island
+#=====================================
+# Explanation of this project:
+# This project is a simple treasure island game 
+# that takes the user's choices as input and outputs the result.
+#=====================================
+
 
 print("-----Welcome to Treasure Island game-----")
-#printing treasure shape
 print('''
 *******************************************************************************
           |                   |                  |                     |

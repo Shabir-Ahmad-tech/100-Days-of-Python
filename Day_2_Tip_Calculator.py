@@ -1,4 +1,11 @@
 # Day 2; Tip Calculator
+#========================================
+# Explanation of this project:
+# This project is a simple tip calculator 
+# that takes the user's total bill and tip percentage as input and outputs the total bill with tip.
+#========================================
+
+
 print("-------Welcome to the Tip calculator--------")
 Total_bill = float(input("What was your total bill? $"))
 Tip = float(input("How much percent tip would you like to give? 10, 12 or 15? "))
