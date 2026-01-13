@@ -79,8 +79,8 @@ This repository grows daily.
 **Shabir**
 Python Developer | AI & Data Science Enthusiast
 
-* GitHub: [[https://github.com/your-username](https://github.com/Shabir-Ahmad-tech)]
-* LinkedIn: [[https://linkedin.com/in/your-profile](https://www.linkedin.com/in/shabir-ahmad-223531382/)]
+* GitHub: [[https://github.com/Shabir-Ahmad-tech](https://github.com/Shabir-Ahmad-tech)]
+* LinkedIn: [[https://linkedin.com/in/shabir-ahmad](https://www.linkedin.com/in/shabir-ahmad-223531382/)]
 
 ---
 
