@@ -21,30 +21,34 @@ for char in range(nu_numbers):
 for char in range(nu_symbols):
     password.append(random.choice(symbols))
 random.shuffle(password)
-print(password)
+print(f"Your password in list: {password}")
+final_password = ""
+for char in password:
+    final_password += char
+print(f"Your final password is: {final_password}")
 
-# #==========================
-# #----Code Challenge 01-----
-# #==========================
-# #numbers in 200 random
-# students = [149, 176, 172, 56, 97, 155, 185, 183, 167, 156, 145, 132, 123, 112, 101, 90, 89, 78, 67]
+#==========================
+#----Code Challenge 01-----
+#==========================
+#numbers in 200 random
+students = [149, 176, 172, 56, 97, 155, 185, 183, 167, 156, 145, 132, 123, 112, 101, 90, 89, 78, 67]
 
-# max_score = 0
-# for student in students:
-#     if student > max_score:
-#         max_score = student     
-# print("Max score is:",max_score)
+max_score = 0
+for student in students:
+    if student > max_score:
+        max_score = student     
+print("Max score is:",max_score)
 
-# #==========================
-# #----Code Challenge 02-----
-# #==========================
+#==========================
+#----Code Challenge 02-----
+#==========================
 
-# for i in range(1, 101):
-#     if i % 3 == 0 and i % 5 == 0:
-#         print("FizzBuzz")
-#     elif i % 3 == 0:
-#         print("Fizz")
-#     elif i % 5 == 0:
-#         print("Buzz")
-#     else:
-#         print(i)
+for i in range(1, 101):
+    if i % 3 == 0 and i % 5 == 0:
+        print("FizzBuzz")
+    elif i % 3 == 0:
+        print("Fizz")
+    elif i % 5 == 0:
+        print("Buzz")
+    else:
+        print(i)
