@@ -2,7 +2,7 @@ import random
 
 weather = []
 for i in range(7):
-    temp = random.randint(20, 45)
+    temp = random.randint(20, 43)
     weather.append(temp)
 print("7 day weather forcast", weather)
 
@@ -13,6 +13,12 @@ for day in weather:
 print(f"Hottest temp is {hottest_temp}")
 
 for day in weather:
-    if day > 40:
-        print("Warning! Heat wave expected!")
+    if hottest_temp >= 40:
+        print("Warning: Extreme Heatwave!")
+        break
+    elif hottest_temp >= 30:
+        print("Forecast: Normal Summer Weather.")
+        break
+    else:
+        print("Forecast: A surprisingly cool week.")
         break
