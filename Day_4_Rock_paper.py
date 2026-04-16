@@ -36,7 +36,7 @@ scissors = """
 
 choices = [rock, paper, scissors]
 
-user_choice = int(input("Type 0 for Rock, 1 for Paper, 2 for Scissors: "))
+user_choice = int(input("Type R for Rock, P for Paper, S for Scissors: "))
 computer_choice = rd.randint(0, 2)
 
 # Check invalid input
@@ -51,9 +51,9 @@ else:
 
     if user_choice == computer_choice:
         print("Draw")
-    elif (user_choice == 0 and computer_choice == 2) or \
-         (user_choice == 1 and computer_choice == 0) or \
-         (user_choice == 2 and computer_choice == 1):
+    elif (user_choice == "R" and computer_choice == "S") or \
+         (user_choice == "P" and computer_choice == "R") or \
+         (user_choice == "S" and computer_choice == "P"):
         print("You win!")
     else:
         print("You lose!")
