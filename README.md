@@ -77,7 +77,7 @@ This repository grows daily.
 ## 👤 Author
 
 **Shabir**
-Python Developer | AI & Data Science Enthusiast
+Building Python skills daily
 
 * GitHub: [[Shabir Ahmad](https://github.com/Shabir-Ahmad-tech)]
 * LinkedIn: [[Shabir Ahmad](https://www.linkedin.com/in/shabir-ahmad-ai/)]
