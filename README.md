@@ -75,8 +75,8 @@ This repository grows daily.
 ---
 
 ## 👤 Author
-
 **Shabir**
+
 Building Python skills daily
 
 * GitHub: [[Shabir Ahmad](https://github.com/Shabir-Ahmad-tech)]
