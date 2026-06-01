@@ -1,0 +1,45 @@
+# Day 10: Calculator
+#========================================
+# Explanation of this project:
+# This project is a simple function that calculates the result of two numbers with an operator.
+#========================================
+
+def calculator(num1, operator, num2):
+    try: 
+        if operator == '+':
+            return f"{num1} + {num2} = {num1 + num2}"
+        elif operator == '-':
+            return f"{num1} - {num2} = {num1 - num2}"
+        elif operator == '*':
+            return f"{num1} * {num2} = {num1 * num2}"
+        elif operator == '/':
+            if num2 == 0:
+                return "Cannot divide by zero"
+            return f"{num1} / {num2} = {num1 / num2}"
+        else:
+            return "Invalid operator"
+    except ValueError:
+        return "Invalid input"
+
+while True:
+    try:
+        num1 = int(input("Enter first number: "))
+        operator = input("Enter operator (+, -, *, /): ").strip()
+        num2 = int(input("Enter second number: "))
+        
+        result = calculator(num1, operator, num2)
+        print(result)
+        
+    except ValueError:
+        print("Please enter valid integers.")
+        continue
+
+    again = input("Do you want to calculate another number? (y/n): ").lower()
+    if again == 'n':
+        print("Goodbye!")
+        break
+    if again == 'y':
+        True
+    else:
+        print("Invalid input, exiting.")
+        break
