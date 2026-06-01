@@ -23,9 +23,9 @@ def calculator(num1, operator, num2):
 
 while True:
     try:
-        num1 = int(input("Enter first number: "))
+        num1 = float(input("Enter first number: "))
         operator = input("Enter operator (+, -, *, /): ").strip()
-        num2 = int(input("Enter second number: "))
+        num2 = float(input("Enter second number: "))
         
         result = calculator(num1, operator, num2)
         print(result)
@@ -35,11 +35,9 @@ while True:
         continue
 
     again = input("Do you want to calculate another number? (y/n): ").lower()
-    if again == 'n':
+    if again == 'n' or again == 'no':  # no need to put function for Y as answer to while loop is True
         print("Goodbye!")
         break
-    if again == 'y':
-        True
-    else:
+    elif again != 'y' or again != 'yes':
         print("Invalid input, exiting.")
         break
